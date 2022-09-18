@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background-color: rgb(212, 211, 211);
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 150px 150px 0px 150px;
+}
+
+.container-fluid .container1{
+    text-align: center;
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 2px gray; 
+    height: 29em;
+    padding: 100px;
+}
+
+.container-fluid .container1 h1 {
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.container-fluid .container1 p {
+    font-size: 24px;
+}
+.container-fluid .container2{
+    background-color: rgb(8, 112, 8);
+    color: rgb(255, 255, 255);
+    padding: 50px;
+}
+
+.container-fluid .container2 form input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(8, 112, 8);
+    width: 300px;
+}
+
+.container-fluid .container2 form input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+#checkbox {
+    width: 50px;
+}
+
+.container-fluid .container2 form button{
+    width: 500px;
+    height: 50px;
+    padding: 3px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(8, 112, 8);
+    border-radius: 50px;
+}
+
+.container-fluid .container2 form button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.container-fluid .container2 form button:hover {
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.container-fluid .container2 form button a:hover {
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.container-fluid .container2 p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.container-fluid .container2 p a:hover{
+    color: rgb(0, 255, 0);
+}
+
+.container3{
+    padding: 150px;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    margin: 20px 150px;
+    height: auto;
+}

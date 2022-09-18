@@ -1,0 +1,73 @@
+@media only screen and (max-width: 400px){
+    .container-fluid .container2 form input{
+        width: 100px;
+    }
+    .container-fluid .container2 form button{
+        width: 80px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .container-fluid{
+        display: block;
+        padding: 0px;
+    }
+    .container-fluid .container1 h1 {
+        font-size: 50px;
+       
+    }
+    
+    .container-fluid .container1 p{
+        font-size: 18px;
+    }
+
+    .container-fluid .container2 form input {
+        width: 150px;
+    }
+    
+    .container-fluid .container2 form button{
+        width: 100px;
+    }
+
+    .container3 {
+        height: auto;
+        margin: 0px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 1007px) {
+    .container-fluid{
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+    .container-fluid .container1 h1 {
+        font-size: 70px;
+       
+    }
+    
+    .container-fluid .container1 p{
+        font-size: 20px;
+    }
+
+    .container-fluid .container2 {
+        padding-left: 100px;
+    }
+
+    .container-fluid .container2 form input {
+        width: 300px;
+    }
+    
+    .container-fluid .container2 form button{
+        width: 300px;
+    }
+
+    .container3 {
+        height: auto;
+        margin: 20px;
+        padding: 20px;
+    }
+}
